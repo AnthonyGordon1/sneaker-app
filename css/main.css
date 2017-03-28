@@ -21,8 +21,37 @@
 	font-size: 16px;
 	color:white;
 	background-color: black;
+	font-weight: bold;
 }
 
 menu-item:active {
 	border-top:medium,#3B01FF
+}
+
+.grey	{
+	background-color: gray;
+}
+
+.black	{
+	background-color: #000;
+}
+
+.search-button	{
+	z-index: 4000;
+}
+.search-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+	
+}
+.search-svg__path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 6px;
+}
+
+.content-grid	{
+	display: grid;
 }
