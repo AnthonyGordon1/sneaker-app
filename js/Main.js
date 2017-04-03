@@ -1,4 +1,8 @@
 // Main JavaScript Document
+//This javascript file uses a few libraries 
+//The file uses the app.js file to create a 
+//an app UI library to peform like a native app.
+//The main.js uses zingtouch.js library for touch gestures and events.
 var cards = [];
 var mainContent = document.getElementId('main-content');
 var mainContentRegion = new ZingTouch.Region(mainContent);
@@ -13,7 +17,7 @@ function contentCard(title, img, desc, link) {
 }
 
 var cardPicker = (function() {
-	"use strict";
+	"use strict"; 
 	var cards = [];
 	var index = 0;
 	
