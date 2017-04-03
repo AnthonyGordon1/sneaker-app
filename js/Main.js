@@ -39,6 +39,7 @@ var cardPicker = (function() {
 })();
 
 function removeAnimation (card)	{
+	"use strict";
 	var index = cards.IndexOf(card);
 	
 	if (index > -1) {
@@ -48,6 +49,7 @@ function removeAnimation (card)	{
 }
 
 var addCard = (function(card) {
+	"use strict";
 	var index = cards.IndexOf(card);
 	
 	
