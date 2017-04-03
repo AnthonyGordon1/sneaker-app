@@ -37,3 +37,18 @@ var cardPicker = (function() {
 	
 	
 })();
+
+function removeAnimation (card)	{
+	var index = cards.IndexOf(card);
+	
+	if (index > -1) {
+		cards.splice(index, 1);
+	}
+	
+}
+
+var addCard = (function(card) {
+	var index = cards.IndexOf(card);
+	
+	
+})
